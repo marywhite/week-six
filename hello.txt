@@ -1,0 +1,14 @@
+ mkdir week-six
+cd week-six/
+echo "# week-six" >> README.md
+touch hello.txt
+git init
+git add . (this is how i've always added all new files to stagin. I know codeschool mentioned git add --all. I'm curious to  know why you'd use one over the other)
+git commit -m "add README and empty text file"
+git remote add origin git@github.com:marywhite/week-six.git
+git push -u origin master
+subl hello.txt (presently editing hello.txt in sublime)
+will proceed to:
+git add hello.text
+git commit -a -m "Modify hello.txt to include git commands"
+git push origin master 
